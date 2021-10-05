@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Pendaftaran</title>
+    <link rel="stylesheet" href="./css/form.css">
+</head>
+<body>
+    <h1>Form Pendaftaran</h1><br>
+    <form action="./detail.html" method="GET" class="hform">
+        <fieldset>
+        <legend>Data Diri</legend>
+        <p>
+        <label for="Nama"><p>Nama :</p></label>
+        <input type="text" id="Nama" name="Nama" placeholder="Nama anda">
+        </p>
+        <p>
+        <label for="NIM"><p>NIM :</p></label>
+        <input type="NIM" id="NIM" name="NIM" placeholder="NIM anda">
+        </p>
+        <p>
+        <label for="TanggalLahir"><p>Tanggal Lahir :</p></label>
+        <input type="date" id="TanggalLahir" name="TanggalLahir">
+        </p>
+        <p>
+        <label for="JenisKelamin"><p>Jenis Kelamin:</p></label>
+        <label><input type="radio" name="JenisKelamin" value="Laki-laki"/>Laki-laki</label> 
+        <label><input type="radio" name="JenisKelamin" value="Perempuan"/>Perempuan</label>
+        </p>
+        <p>
+        <label for="Agama"><p>Agama :</p></label>
+        <select name="Agama" id="Agama">
+            <option value="Islam">Islam</option>
+            <option value="Kristen">Kristen</option>
+            <option value="Hindu">Hindu</option>
+            <option value="Budha">Budha</option>
+            <option value="Konghucu">Konghucu</option>    
+        </select>
+        </p>
+        <label for="Alamat"><p>Alamat :</p></label>
+        <textarea name="Alamat" id="Alamat" cols="50" rows="0"></textarea>
+        <input type="submit" value="Submit">
+        </fieldset>
+    </form>  
+</body>
+</html>
