@@ -1,0 +1,19 @@
+table, th, td {
+    border:2px solid rgb(182, 174, 174);
+    border-collapse: collapse;
+    padding-bottom: 10pt;
+    padding-left: 20pt;
+    padding-right: 20pt;
+    height: 50pt;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+head, body {
+    background-color: whitesmoke;
+    
+}
+tbody tr:nth-child(even) {
+    background-color: rgb(230, 222, 222);
+}
+
