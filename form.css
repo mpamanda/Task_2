@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(230, 222, 222);
+}
+label {
+    font-weight: bold;
+    font-size: 20px;
+}
+legend{
+    padding: 0 10px;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 20px;
+}
+fieldset{
+    padding: 50px;
+    border: 2pt solid rgb(182, 174, 174);
+    width: 550px;
+    height: 400px;
+    text-align:left;
+    position: relative;
+}
+textarea {
+    padding: 10px;
+}
+
+form.hform {
+    margin-bottom: 10px;
+}
